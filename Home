@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisalaya - Finance for Future Founders</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Paisalaya 💸</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Finance for Future Founders</h1>
+            <p>Empowering teens to make smarter money moves. Join the Paisalaya revolution!</p>
+            <button onclick="alert('Coming Soon!')">Get Started</button>
+        </div>
+        <div class="hero-image">
+            <!-- Animated icon/mascot (use any SVG or PNG) -->
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="Mascot" class="mascot-bounce">
+        </div>
+    </header>
+    <section class="features">
+        <div class="card">
+            <h2>💰 Simple Dashboard</h2>
+            <p>Track your expenses, savings, and investments in one place.</p>
+        </div>
+        <div class="card">
+            <h2>🧑‍💻 Learn Finance</h2>
+            <p>Fun quizzes and tips for building your financial knowledge.</p>
+        </div>
+        <div class="card">
+            <h2>🚀 Community</h2>
+            <p>Connect with other future founders and share ideas.</p>
+        </div>
+    </section>
+    <footer>
+        © 2025 Paisalaya - Finance for Future Founders
+    </footer>
+    <script>
+        // Fun little animation for mascot (bounce effect)
+        const mascot = document.querySelector('.mascot-bounce');
+        setInterval(() => mascot.classList.toggle('bounce'), 1000);
+    </script>
+</body>
+
+</html>
+
